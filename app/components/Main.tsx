@@ -34,7 +34,7 @@ return (
           <button className='bg-[#353333] rounded-md w-full duration-150 focus:outline-none focus:ring focus:ring-[#c51951]' onClick={() => toast('Вы успешло сделали ставку 3x')}>
             <div className='px-[10px] py-5'>
               <div className='rounded-[10px] text-2xl font-bold px-16 py-2.5 text-center text-black bg-[#c51951]'>
-                3x   {/* ID: 12, 14, 18, 3, 7, 9  */}
+                3x x  {/* ID: 12, 14, 18, 3, 7, 9  */}
               </div> 
             </div>
           </button>
