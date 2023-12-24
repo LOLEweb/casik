@@ -1,5 +1,6 @@
+"use client";
 import Image from 'next/image'
-import React, { FC } from 'react'
+import React, { FC, useState } from 'react'
 import coin from './../assets/Coin.svg'
 
 type head = {
@@ -8,6 +9,15 @@ type head = {
 
 
 const Header:FC<head> = ({title}) => {
+
+  const [balance, setBalance] = useState(401)
+
+  const bal = () => {
+    setBalance(balance * 2)
+    return balance
+  }
+
+
   return (
     <>
         <header className='header bg-[#141414] px-8'>
@@ -15,7 +25,7 @@ const Header:FC<head> = ({title}) => {
                 <h2>{title}</h2>
                 <div className='flex gap-2'>
                     <Image src={coin} alt={'coin-icon'} />
-                    <p>400</p>
+                    <p>{balance}</p>
                 </div>
             </div>
         </header>
