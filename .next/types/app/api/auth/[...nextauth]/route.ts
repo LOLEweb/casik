@@ -1,4 +1,4 @@
-// File: C:\Users\user\Desktop\discord-casino-main\app\api\auth\[...nextauth]\route.js
+// File: C:\Users\user\Desktop\casik\app\api\auth\[...nextauth]\route.js
 import * as entry from '../../../../../../app/api/auth/[...nextauth]/route.js'
 import type { NextRequest } from 'next/server.js'
 

@@ -1,4 +1,4 @@
-// File: C:\Users\user\Desktop\discord-casino-main\app\page.tsx
+// File: C:\Users\user\Desktop\casik\app\page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
